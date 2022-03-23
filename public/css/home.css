@@ -1,0 +1,20 @@
+body.home li.precio {
+    font-size: 18px;
+    
+}
+
+.home li.desc {
+    font-size: 16px;
+    
+}
+
+.home h2.titulares {
+    font-size: 24px;
+   
+}
+body.home main section article{
+    border: solid 20px var(--colorGrisC);
+    
+    
+}
+
