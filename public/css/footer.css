@@ -1,0 +1,25 @@
+.footer i{
+    display: block;
+    text-align: center;
+    color: var(--colorCeleste);
+    font-size: 32px;
+    padding-top: 60px;
+}
+section.footer{
+    text-align: center;
+   
+    
+}
+.footer p {
+    color: var(--colorGrisO);
+}
+
+.footer h4{
+   color: var(--colorGrisO);
+}
+
+.footer p.copy{
+    font-size: 12px;
+    text-align: left;
+    padding-top: 50px;
+}
