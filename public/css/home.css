@@ -1,20 +1,52 @@
+
 body.home li.precio {
     font-size: 18px;
+    
+}
+.home main section article div div.camioncito i{
+    color: var(--colorVerde);
+    padding: 20px;
+    border: 1px solid var(--colorVerde);
+    width: 60px; 
+    height: 60px;
+    border-radius: 50%; 
+    font-size: 24px;
+   
     
 }
 
 .home li.desc {
     font-size: 16px;
+    color: var(--colorVerde);
     
 }
 
 .home h2.titulares {
+    margin: 10px;
     font-size: 24px;
+    color: var(--colorGrisO);
    
 }
 body.home main section article{
-    border: solid 20px var(--colorGrisC);
-    
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
     
 }
+.home li.objeto{
+    margin-top: 10px;
+}
+.home main section article div{
+    border: solid 1px var(--colorGrisC);
+}
+main.menu__home article{
+    width: 90%;
+    margin: 0 15px 15px;
+}
+main section article div.detalle{
+    display: none;
+}
 
+@media (min-width:460){
+   h2{
+       color: aqua;
+   }
+}

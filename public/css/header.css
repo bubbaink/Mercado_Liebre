@@ -1,6 +1,7 @@
 
 body.home header{
     background-color: var(--colorAmarillo) ;
+    padding: 20px 0;
     
 }
 
@@ -8,10 +9,13 @@ body.home header{
     background: url(https://cdn0.iconfinder.com/data/icons/slim-square-icons-basics/100/basics-19-32.png) no-repeat 0px 5px;
     background-size: 24px;
     background-color: white;
-    width: 500px;
+    width: 200px;
     border-bottom: solid 1px #ccc;
     padding: 10px 10px 10px 30px;
     outline: none;
+}
+.home div.buscador{
+    padding-left: 10px;
 }
 
 .home header img{
@@ -22,6 +26,7 @@ body.home header{
 }
 
 .home header .compra{
+    padding-top: 10px;
     display: block;
     text-align: center;
 }
@@ -29,22 +34,40 @@ body.home header{
 .home nav.header ul.header1 {
     font-size: 12px;
     margin-top: 10px; 
+    display: none
 }
 
 .home nav.header ul.header2 li {
     font-size: 12px;
     margin-top: 10px;
+    display: none
     
 }
 
-header button{
+.home nav.header div.boton button{
     width: 50px;
     padding: 5px;
     font-size: 32px;
     background-color: var(--colorCeleste);
+    color: white;
     border: none;
     border-radius: 5px;
-    margin: 0 auto 30px;
+    margin: 0 auto;
     display: block;
     
+}
+.home nav.header div.boton{
+    padding-top: 40px;
+}
+
+@media (min-width:460){
+    .home nav.header ul.header1{
+        display:block;
+    }
+    .home nav.header ul.header2{
+        display: block;
+    }
+    .home nav.header div.boton button{
+        display: none;
+    }
 }

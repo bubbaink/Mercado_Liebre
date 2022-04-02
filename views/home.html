@@ -11,10 +11,13 @@
 </head>
 <body class="home">
     <header>
-        <img src="/images/logo-mercado-liebre.svg" alt="">
-        <div>
-            <input type="search" placeholder="Buscar productos, marcas" id="Buscador" />
+        <div class="superior">
+            <img src="/images/logo-mercado-liebre.svg" alt="">
+            <div class="buscador">
+                <input type="search" placeholder="Buscar productos, marcas" id="Buscador" />
+            </div>
         </div>
+       
         
         <a href="" class="compra"><i class="fa-solid fa-hand-holding-dollar"></i>Compra en cuotas y sin tarjeta de credito</a>
         <nav class="header">
@@ -30,50 +33,73 @@
                 <li><a href="">Mis compras</a><i class="fa-solid fa-bag-shopping"></i></li>
                 
             </ul>
-            <button><i class="fas fa-bars"></i></button>
+            <div class="boton">
+                <button><i class="fas fa-bars"></i></button>
+            </div>
         </nav>
-
+        
     </header>
-    <main>
+    <main class="menu__home">
         <section class>
             <h2 class="titulares">Seccion: Basado en tu ultima visita</h2>
             <article>
                 <img src="/images/img-cafetera-moulinex.jpg" alt="" width="420">
-                <ul style="list-style: none;">
-                    <li class="precio">$6.770</li>
-                    <li class="desc">40% off</li>
-                    <li>Cafetera Moulinex</li>
-                </ul>
+                <div class="detalle">
+                    <div class="camioncito">
+                        <i class="fa-solid fa-truck"></i>
+                    </div>
+                    <ul style="list-style: none;">
+                        <li class="precio">$6.770</li>
+                        <li class="desc">40% off</li>
+                        <li class="objeto">Cafetera Moulinex</li>
+                    </ul>
+                </div>
+               
 
             </article>
             <article>
                 <img src="/images/img-macbook-pro-2019.jpg" alt="" width="420">
-                <ul style="list-style: none;"
+                <div class="detalle">
+                    <div class="camioncito">
+                        <i class="fa-solid fa-truck"></i>
+                    </div>
+                    <ul style="list-style: none;"
                 >
                     <li class="precio">$230.000</li>
                     <li class="desc">20% off</li>
-                    <li>MacBook Pro 2019</li>
+                    <li class="objeto">MacBook Pro 2019</li>
                 </ul>
+                </div>
 
             </article>
             <article>
                 <img src="/images/img-samsung-galaxy-s10.jpg" alt="" width="420">
-                <ul style="list-style: none;"
-                >
-                    <li class="precio">$70.500</li>
-                    <li class="desc">10% off</li>
-                    <li>Samsumg Galaxy S10</li>
-                </ul>
+                <div class="detalle">
+                    <div class="camioncito">
+                        <i class="fa-solid fa-truck"></i>
+                    </div>
+                    <ul style="list-style: none;"
+                    >
+                        <li class="precio">$70.500</li>
+                        <li class="desc">10% off</li>
+                        <li class="objeto">Samsumg Galaxy S10</li>
+                    </ul>
+                </div>
 
             </article>
             <article>
                 <img src="/images/img-tv-samsung-smart.jpg" alt="" width="420">
-                <ul style="list-style: none;"
-                >
-                    <li class="precio">$23.200</li>
-                    <li class="desc">5% off</li>
-                    <li>SmartTV Samsung 43"</li>
-                </ul>
+                <div class="detalle">
+                    <div class="camioncito">
+                        <i class="fa-solid fa-truck"></i>
+                    </div>
+                    <ul style="list-style: none;"
+                    >
+                        <li class="precio">$23.200</li>
+                        <li class="desc">5% off</li>
+                        <li class="objeto">SmartTV Samsung 43"</li>
+                    </ul>
+                </div>
 
             </article>
         </section>
@@ -81,42 +107,64 @@
             <h2 class="titulares">Seccion de ofertas</h2>
             <article>
                 <img src="/images/img-cafetera-moulinex.jpg" alt="" width="420">
-                <ul style="list-style: none;"
-                >
-                    <li class="precio">$6.770</li>
-                    <li class="desc">40% off</li>
-                    <li>Cafetera Moulinex</li>
-                </ul>
+                <div class="detalle">
+                    <div class="camioncito">
+                        <i class="fa-solid fa-truck"></i>
+                    </div>
+                    <ul style="list-style: none;"
+                    >
+                        <li class="precio">$6.770</li>
+                        <li class="desc">40% off</li>
+                        <li class="objeto">Cafetera Moulinex</li>
+                    </ul>
+                </div>
 
             </article>
             <article>
                 <img src="/images/img-macbook-pro-2019.jpg" alt="" width="420">
-                <ul style="list-style: none;"
+                <div class="detalle">
+                    <div class="camioncito">
+                        <i class="fa-solid fa-truck"></i>
+                    </div>
+                    <ul style="list-style: none;"
                 >
                     <li class="precio">$230.000</li>
                     <li class="desc">20% off</li>
-                    <li>MacBook Pro 2019</li>
+                    <li class="objeto">MacBook Pro 2019</li>
                 </ul>
-
+                </div>
+        
             </article>
             <article>
                 <img src="/images/img-samsung-galaxy-s10.jpg" alt="" width="420">
-                <ul style="list-style: none;"
-                >
-                    <li class="precio">$70.500</li>
-                    <li class="desc">10% off</li>
-                    <li>Samsumg Galaxy S10</li>
-                </ul>
+                <div class="detalle">
+                    <div class="camioncito">
+                        <i class="fa-solid fa-truck"></i>
+                    </div>
+                    <ul style="list-style: none;"
+                    >
+                        <li class="precio">$70.500</li>
+                        <li class="desc">10% off</li>
+                        <li class="objeto">Samsumg Galaxy S10</li>
+                    </ul>
+                </div>
+               
 
             </article>
             <article>
                 <img src="/images/img-tv-samsung-smart.jpg" alt="" width="420">
-                <ul style="list-style: none;"
-                >
-                    <li class="precio">$23.200</li>
-                    <li class="desc">5% off</li>
-                    <li>SmartTV Samsung 43"</li>
-                </ul>
+                <div class="detalle">
+                    <div class="camioncito">
+                        <i class="fa-solid fa-truck"></i>
+                    </div>
+                    <ul style="list-style: none;"
+                    >
+                        <li class="precio">$23.200</li>
+                        <li class="desc">5% off</li>
+                        <li class="objeto">SmartTV Samsung 43"</li>
+                    </ul>
+                </div>
+               
 
             </article>
 
@@ -137,8 +185,9 @@
             <h4>Seguridad, de principio a fin</h4>
             <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,
                 porque estás siempre protegid@.</p>
-            <p class="copy">Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
+            
         </section>
+        <p class="copy">Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
 
     </footer>
 </body>
