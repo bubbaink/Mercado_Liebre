@@ -3,12 +3,16 @@ body.home li.precio {
     font-size: 18px;
     
 }
+body.home main {
+    background-color: var(--colorGrisC);
+    
+    
+}
+
 .home main section article div div.camioncito i{
     color: var(--colorVerde);
-    padding: 20px;
+    padding: 15px;
     border: 1px solid var(--colorVerde);
-    width: 60px; 
-    height: 60px;
     border-radius: 50%; 
     font-size: 24px;
    
@@ -27,26 +31,37 @@ body.home li.precio {
     color: var(--colorGrisO);
    
 }
-body.home main section article{
-    box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    
-}
+
 .home li.objeto{
     margin-top: 10px;
 }
 .home main section article div{
     border: solid 1px var(--colorGrisC);
 }
-main.menu__home article{
+.home main.menu__home article{
     width: 90%;
     margin: 0 15px 15px;
+   
 }
-main section article div.detalle{
+.home main section article div.detalle{
+    background-color: white;
+    
+}
+
+.home main section article div.detalle .objeto{
     display: none;
 }
 
-@media (min-width:460){
-   h2{
-       color: aqua;
-   }
+@media (min-width:460px){
+    body.home main section article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        
+    }
+    .home main section article div.detalle .objeto{
+        display: block; 
+        
+    }
+    .home main.menu__home article{
+        margin: 0px auto 15px;
+    }
 }

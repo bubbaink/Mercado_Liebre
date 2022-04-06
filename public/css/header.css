@@ -31,18 +31,19 @@ body.home header{
     text-align: center;
 }
 
-.home nav.header ul.header1 {
+.home nav.header ul.header1{
     font-size: 12px;
     margin-top: 10px; 
     display: none
 }
 
-.home nav.header ul.header2 li {
+.home nav.header ul.header2{
     font-size: 12px;
     margin-top: 10px;
     display: none
     
 }
+
 
 .home nav.header div.boton button{
     width: 50px;
@@ -60,7 +61,7 @@ body.home header{
     padding-top: 40px;
 }
 
-@media (min-width:460){
+@media (min-width:460px){
     .home nav.header ul.header1{
         display:block;
     }
@@ -70,4 +71,8 @@ body.home header{
     .home nav.header div.boton button{
         display: none;
     }
+    .home header nav.header .top{
+        margin-top: 5px;
+    }
+
 }
