@@ -1,5 +1,7 @@
 
 body.home header{
+    flex-direction: column;
+    justify-content: space-around;
     background-color: var(--colorAmarillo) ;
     padding: 20px 0;
     
@@ -9,20 +11,22 @@ body.home header{
     background: url(https://cdn0.iconfinder.com/data/icons/slim-square-icons-basics/100/basics-19-32.png) no-repeat 0px 5px;
     background-size: 24px;
     background-color: white;
-    width: 200px;
+    width: 50%;
     border-bottom: solid 1px #ccc;
     padding: 10px 10px 10px 30px;
     outline: none;
+    
 }
 .home div.buscador{
+    
     padding-left: 10px;
 }
 
-.home header img{
-    width: 180px;
-    height: 180px;
+.home header div.superior img{
     padding: 0%;
     margin: 0%;
+    width: 40%;
+    height: 40%;
 }
 
 .home header .compra{
