@@ -32,6 +32,7 @@
     padding: 10px;
     font-size: 24px;
     color: var(--colorGrisO);
+    width: 100%;
    
 }
 
@@ -39,7 +40,7 @@
     margin-top: 10px;
 }
 .home main section article{
-    
+    position: relative;
     background-color: white;
     margin: 10px 0;
 }
@@ -47,6 +48,7 @@
     width: 90%;
    margin: 0px auto;
    padding: 20px 0;
+   
    
 }
 .home main section article .detalle{
@@ -68,7 +70,19 @@
         display: block; 
         
     }
-    .home main.menu__home article{
+    .home .menu__home article{
         margin: 0px auto 15px;
+        width: 47%;
+    }
+    .home .home__main{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+@media (min-width: 769px){
+    .home .menu__home article{
+        
+        width: 22%;
     }
 }
