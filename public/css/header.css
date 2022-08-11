@@ -1,12 +1,12 @@
 
-body.home header{
+header{
     background-color: var(--colorAmarillo) ;   
     padding: 20px 0; 
 }
-.home .logo-mc{
+ .logo-mc{
     width: 45%;
 }
-.home .buscador{
+.buscador{
     width: 45%;
 }
 #Buscador {
@@ -17,9 +17,10 @@ body.home header{
     padding: 10px 10px 10px 30px;
     outline: none;
     width: 100%;
+    border-radius: 20px;
     
 }
-.home .superior{
+.superior{
     position: relative;
     padding: 0 20px;
     display: flex;
@@ -27,22 +28,22 @@ body.home header{
     justify-content: space-around;
 }
 
-.home header .compra{
+header .compra{
     margin: 10px;
     padding-top: 10px;
     display: block;
     text-align: center;
 }
-.home .header{
+.header{
     display: none;
 }
-.home nav.header ul.header1{
+nav.header ul.header1{
     font-size: 12px;
     margin-top: 10px; 
     
 }
 
-.home nav.header ul.header2{
+ nav.header ul.header2{
     font-size: 12px;
     margin-top: 10px; 
 }
@@ -66,45 +67,45 @@ header .boton2 {
 @media (min-width:460px){
    
     
-    .home header .boton{
+    header .boton{
         display: none;
     }
-    .home header nav.header .top{
+    header nav.header .top{
         margin-top: 5px;
     }
-    .home .header{
+    .header{
         position: relative;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
     }
-    .home nav.header ul.header1{
+    nav.header ul.header1{
         padding-right: 40px;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
     }
-    .home nav.header ul.header2{
+    nav.header ul.header2{
         padding-left: 40px;
         padding-right: 20px;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
     }
-    .home .header .top {
+    .header .top {
         margin-left: 30px;
     }
-    .home .superior{
+    .superior{
         width: 90%;
     }
-    .home .logo-mc{
+    .logo-mc{
         width: 30%;
     }
-    .home .buscador{
+    .buscador{
         width: 30%;
         padding-left: 1%;
     }
-    .home header .compra{
+    header .compra{
         padding-left: 1%;
     }
     

@@ -1,0 +1,37 @@
+main.register__main{
+  
+   background-color: var(--colorGrisC);
+   
+}
+.register{
+    padding-left: 10px;
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid white;
+    background-color: white;
+}
+.register .register-letter{
+    color: black;
+}
+.register .register__input{
+    padding: 15px;
+}
+.register .register__input__in{
+    border-radius: 5px;
+    width: 100%;
+}
+.register .select-register{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.register .button-register{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+.register .boton-register{
+    width: 80%;
+}
