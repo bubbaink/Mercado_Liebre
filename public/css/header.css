@@ -1,17 +1,14 @@
 
 body.home header{
-    flex-direction: column;
-    justify-content: space-around;
-    background-color: var(--colorAmarillo) ;
-    padding: 20px 0;
-    
+    background-color: var(--colorAmarillo) ;   
+    padding: 20px 0; 
 }
 
 #Buscador {
     background: url(https://cdn0.iconfinder.com/data/icons/slim-square-icons-basics/100/basics-19-32.png) no-repeat 0px 5px;
     background-size: 24px;
     background-color: white;
-    width: 50%;
+    width: 85%;
     border-bottom: solid 1px #ccc;
     padding: 10px 10px 10px 30px;
     outline: none;
@@ -22,11 +19,8 @@ body.home header{
     padding-left: 10px;
 }
 
-.home header div.superior img{
-    padding: 0%;
-    margin: 0%;
-    width: 40%;
-    height: 40%;
+header .superior {
+    padding: 0 20px;
 }
 
 .home header .compra{
@@ -49,21 +43,25 @@ body.home header{
 }
 
 
-.home nav.header div.boton button{
-    width: 50px;
-    padding: 5px;
-    font-size: 32px;
-    background-color: var(--colorCeleste);
-    color: white;
-    border: none;
-    border-radius: 5px;
-    margin: 0 auto;
+header .boton{
+    
     display: block;
+    color: white;
+    background-color: var(--colorCeleste);
+    font-size: 1.5rem;
+    padding: 8px;
+    width: 25px;
+    border-radius: 8px;
+    text-align: center;
     
 }
-.home nav.header div.boton{
-    padding-top: 40px;
+header .boton2 {
+    text-align: center;
+    margin-left: 44%;
 }
+/* .home nav.header div.boton{
+    padding-top: 40px;
+} */
 
 @media (min-width:460px){
     .home nav.header ul.header1{
@@ -72,7 +70,7 @@ body.home header{
     .home nav.header ul.header2{
         display: block;
     }
-    .home nav.header div.boton button{
+    .home header .boton{
         display: none;
     }
     .home header nav.header .top{

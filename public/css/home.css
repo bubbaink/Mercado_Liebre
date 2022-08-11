@@ -1,22 +1,25 @@
 
-body.home li.precio {
+.home li.precio {
     font-size: 18px;
     
 }
-body.home main {
+.home main {
     background-color: var(--colorGrisC);
-    
-    
 }
 
-.home main section article div div.camioncito i{
+.home main section article div .camioncito i{
     color: var(--colorVerde);
-    padding: 15px;
+    padding: 5px;
     border: 1px solid var(--colorVerde);
-    border-radius: 50%; 
-    font-size: 24px;
-   
-    
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    font-size: 18px;
+    text-align: center;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    background-color: #fff;
 }
 
 .home li.desc {
@@ -26,7 +29,7 @@ body.home main {
 }
 
 .home h2.titulares {
-    margin: 10px;
+    padding: 10px;
     font-size: 24px;
     color: var(--colorGrisO);
    
@@ -35,17 +38,21 @@ body.home main {
 .home li.objeto{
     margin-top: 10px;
 }
-.home main section article div{
-    border: solid 1px var(--colorGrisC);
+.home main section article{
+    
+    background-color: white;
+    margin: 10px 0;
 }
-.home main.menu__home article{
+.home .home__main{
     width: 90%;
-    margin: 0 15px 15px;
+   margin: 0px auto;
+   padding: 20px 0;
    
 }
-.home main section article div.detalle{
-    background-color: white;
-    
+.home main section article .detalle{
+    position: relative;
+    padding: 0 15px;
+    border: 1px solid var(--colorGrisC)
 }
 
 .home main section article div.detalle .objeto{
